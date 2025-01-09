@@ -30,7 +30,7 @@ type TelemetryData struct {
 }
 
 const (
-	batchSize   = 1000
+	batchSize   = 10000
 	targetCount = 1_000_000
 	numWorkers  = 10 // Número de workers para processamento paralelo
 )
